@@ -25,16 +25,34 @@
 var NAVTREE =
 [
   [ "AMF-Placer", "index.html", [
-    [ "legalizationIssue", "md_benchmarks__v_c_u108_device_legalization_issue.html", null ],
-    [ "Implementation Explanation", "explanation.html", null ],
-    [ "Get Started", "get_started.html", null ],
-    [ "Introduction", "intro.html", null ],
-    [ "Publications", "publication.html", null ],
-    [ "AMF-Placer", "md__r_e_a_d_m_e.html", null ],
+    [ "Introduction", "_1_intro.html", null ],
+    [ "Build the Placer", "md_doc_pages__2_1__build_the_placer.html", null ],
+    [ "Run An Example", "md_doc_pages__2_2__run_an_example.html", null ],
+    [ "Set the Placement Configuration in JSON file", "md_doc_pages__2_3__setthe_placement_configurationin_j_s_o_nfile.html", null ],
+    [ "Extract Design Information from Vivado", "md_doc_pages__2_4__extract_design_informationfrom_vivado.html", null ],
+    [ "Extract Device Information from Vivado", "md_doc_pages__2_5__extract_device_informationfrom_vivado.html", null ],
+    [ "Load the Output Placement in Vivado", "md_doc_pages__2_6__loadthe_output_placementin_vivado.html", null ],
+    [ "Visualize the Placement Convergence Procedure", "md_doc_pages__2_7__visualizethe_placement_convergence_procedure.html", null ],
+    [ "Customize the Placement Flow", "md_doc_pages__2_8__customizethe_placement_flow.html", null ],
+    [ "Get Started", "_2_get_started.html", null ],
+    [ "Benchmarks Details", "md_doc_pages__3_1__benchmarks_details.html", null ],
+    [ "Experimental Results", "md_doc_pages__3_2__experimental_results.html", null ],
+    [ "Download Post-Implementation Vivado Projects", "md_doc_pages__3_3__post_implementation_projects.html", null ],
+    [ "Benchmarks and Experimental Results", "_3_benchmark_info.html", null ],
+    [ "Publications", "_4_publication.html", null ],
+    [ "Wirelength Optimzation in Quadratic Placement Flow", "md_doc_pages__5_1__w_l_opt.html", null ],
+    [ "Parallel Cell Spreading", "md_doc_pages__5_2__cell_spreading.html", null ],
+    [ "Parallel Progressive Macro Legalization", "md_doc_pages__5_3_macro_legalization.html", null ],
+    [ "Mixed-size Packing", "md_doc_pages__5_4_packing.html", null ],
+    [ "Optimization for Timing, Clocking and Congestion", "md_doc_pages__5_5_timing_clocking_congestion.html", null ],
+    [ "Implementation Explanation", "_5_explanation.html", null ],
+    [ "Runtime Log Explanation", "md_doc_pages__6_runtime_log.html", null ],
+    [ "Existing Problems When Exporting To Vivado", "_7_portability_to_vivado_problem.html", null ],
+    [ "Some Failure Lessons", "_8_some_failure_lesson.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
+        [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ]
       ] ]
@@ -58,8 +76,6 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -68,19 +84,19 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_a_m_f_placer_8h.html",
-"class_a_m_f_placer.html#a5b01fb2cf9d8f7f15a59892ed9a951ae",
-"class_design_info.html#a8ada82debbe2ac615c36cae57d16eadc",
-"class_device_info_1_1_clock_region.html#a3090e63e749a5aa9253f4c8f3ecd456d",
-"class_global_placer.html#a2b048fbb895e22f2073d02778d7e5d71",
-"class_macro_legalizer.html#ac1d46342d2a3dc354571345d2d78f001",
-"class_parallel_c_l_b_packer_1_1_packing_c_l_b_site_1_1_packing_c_l_b_cluster.html#aa98b6dfa68cdb764118688856a508e92",
-"class_placement_info_1_1_compatible_placement_table.html#ae3300c4af8f5599c29e6bc14263b9437",
-"class_placement_info_1_1_placement_unit.html#a1c92783d735eb2efde61fd770c4d831b",
-"class_vivado_graph_util_1_1_vivado_cell.html#aeeae739be8662b4ba7ad7f11bc94ebfb",
-"functions_vars_e.html",
-"namespacepaint_placement.html#a34c2e48f340d0740a8c6f8420c82c5f4",
-"struct_parallel_c_l_b_packer_1_1__site_with_score.html"
+"_1_intro.html",
+"class_cluster_placer.html#a0ca64fdff91000c046420b66bec9a89b",
+"class_design_info_1_1_design_cell.html#ae3eb7bbb42835b660984dbc690bf4f7e",
+"class_device_info_1_1_device_site.html#a4fa8bd3745f4b0c786f8cbde4be2540b",
+"class_graph_partitioner.html#afef6ea8b9c40241bfca4d434997cc050",
+"class_parallel_c_l_b_packer.html#a921fb77be4e776ada5aeb0cc17e481e9",
+"class_placement_info.html#a3fe3ef0ea00604e37968c16ae051fee2",
+"class_placement_info_1_1_placement_bin_info.html#adc82c5284eed5ba6f62a053a2f44ba16",
+"class_placement_info_1_1_placement_unit.html#adc924c5fffa4c89c40830172e53243c1",
+"class_vivado_graph_util_1_1_vivado_core_cluster.html#aed11ac29678529554353667ea78e1d2e",
+"export_device_location_8py.html#ae5fa6579ce96d0de3d103e4b132594c4",
+"namespaceexport_device_location.html#a3a6c5bce2489cccea1d272f520dcce9a",
+"struct_placement_info_1_1_placement_site_type_info_1_1location.html#acf2986955232817aa25cfc69bfa893a8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

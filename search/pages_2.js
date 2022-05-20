@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['implementation_20explanation_0',['Implementation Explanation',['../explanation.html',1,'']]],
-  ['introduction_1',['Introduction',['../intro.html',1,'']]]
+  ['customize_20the_20placement_20flow_0',['Customize the Placement Flow',['../md_doc_pages__2_8__customizethe_placement_flow.html',1,'']]]
 ];
