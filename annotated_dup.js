@@ -1,16 +1,7 @@
 var annotated_dup =
 [
-    [ "exportDeviceLocation", "namespaceexport_device_location.html", [
-      [ "siteInfo", "classexport_device_location_1_1site_info.html", "classexport_device_location_1_1site_info" ]
-    ] ],
-    [ "VivadoGraphUtil", "namespace_vivado_graph_util.html", [
-      [ "VivadoCell", "class_vivado_graph_util_1_1_vivado_cell.html", "class_vivado_graph_util_1_1_vivado_cell" ],
-      [ "VivadoCoreCluster", "class_vivado_graph_util_1_1_vivado_core_cluster.html", "class_vivado_graph_util_1_1_vivado_core_cluster" ],
-      [ "VivadoNet", "class_vivado_graph_util_1_1_vivado_net.html", "class_vivado_graph_util_1_1_vivado_net" ],
-      [ "VivadoPatternCluster", "class_vivado_graph_util_1_1_vivado_pattern_cluster.html", "class_vivado_graph_util_1_1_vivado_pattern_cluster" ],
-      [ "VivadoPatternClusterSeq", "class_vivado_graph_util_1_1_vivado_pattern_cluster_seq.html", "class_vivado_graph_util_1_1_vivado_pattern_cluster_seq" ],
-      [ "VivadoPin", "class_vivado_graph_util_1_1_vivado_pin.html", "class_vivado_graph_util_1_1_vivado_pin" ]
-    ] ],
+    [ "exportDeviceLocation", "namespaceexport_device_location.html", "namespaceexport_device_location" ],
+    [ "VivadoGraphUtil", "namespace_vivado_graph_util.html", "namespace_vivado_graph_util" ],
     [ "AMFPlacer", "class_a_m_f_placer.html", "class_a_m_f_placer" ],
     [ "CLBLegalizer", "class_c_l_b_legalizer.html", "class_c_l_b_legalizer" ],
     [ "ClusterPlacer", "class_cluster_placer.html", "class_cluster_placer" ],
@@ -25,6 +16,7 @@ var annotated_dup =
     [ "InitialPacker", "class_initial_packer.html", "class_initial_packer" ],
     [ "MacroLegalizer", "class_macro_legalizer.html", "class_macro_legalizer" ],
     [ "MinCostBipartiteMatcher", "class_min_cost_bipartite_matcher.html", "class_min_cost_bipartite_matcher" ],
+    [ "Packing_Netcompare", "struct_packing___netcompare.html", "struct_packing___netcompare" ],
     [ "Packing_PUcompare", "struct_packing___p_ucompare.html", "struct_packing___p_ucompare" ],
     [ "ParallelCLBPacker", "class_parallel_c_l_b_packer.html", "class_parallel_c_l_b_packer" ],
     [ "PlacementInfo", "class_placement_info.html", "class_placement_info" ],
